@@ -1,0 +1,47 @@
+{
+    "incentive_type": "composite",
+    "rules": {
+      "product": {
+        "ids": [
+          {
+            "type": "category_id",
+            "values": [
+              "category_a",
+              "category_c"
+            ],
+            "item_discount_percentage": [
+              10,
+              10
+            ],
+            "sponsorship_ratios": [
+              {
+                "party": "vendor",
+                "value": 100
+              },
+              {
+                "party": "vendor",
+                "value": 100
+              }
+            ]
+          },
+          {
+            "type": "category_id",
+            "values": [
+              "category_b"
+            ],
+            "item_discount_value": [
+              5
+            ],
+            "sponsorship_ratios": [
+              {
+                "party": "vendor",
+                "value": 100
+              }
+            ]
+          }
+        ],
+        "discount_only_min_order_amount": 5,
+        "bgxy": null
+      }
+    }
+  }
