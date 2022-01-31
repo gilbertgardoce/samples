@@ -5,14 +5,9 @@
         "ids": [
           {
             "type": "product_id",
-            "values": [
-              "product_a",
-              "product_c"
-            ],
-            "item_discount_percentage": [
-              10,
-              15
-            ],
+            "values": ["product_a","product_b","product_c"],
+            "item_discount_percentage": [10,0,15],
+            "item_discount_value": [0,5,0],
             "sponsorship_ratios": [
               {
                 "party": "vendor",
@@ -21,18 +16,7 @@
               {
                 "party": "vendor",
                 "value": 100
-              }
-            ]
-          },
-          {
-            "type": "product_id",
-            "values": [
-              "product_b"
-            ],
-            "item_discount_value": [
-              5
-            ],
-            "sponsorship_ratios": [
+              },
               {
                 "party": "vendor",
                 "value": 100

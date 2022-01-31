@@ -5,14 +5,9 @@
         "ids": [
           {
             "type": "category_id",
-            "values": [
-              "category_a",
-              "category_c"
-            ],
-            "item_discount_percentage": [
-              10,
-              10
-            ],
+            "values": ["category_a","category_b","category_c"],
+            "item_discount_percentage": [10,0,10],
+            "item_discount_value": [0,5,0],
             "sponsorship_ratios": [
               {
                 "party": "vendor",
@@ -21,18 +16,7 @@
               {
                 "party": "vendor",
                 "value": 100
-              }
-            ]
-          },
-          {
-            "type": "category_id",
-            "values": [
-              "category_b"
-            ],
-            "item_discount_value": [
-              5
-            ],
-            "sponsorship_ratios": [
+              },
               {
                 "party": "vendor",
                 "value": 100
